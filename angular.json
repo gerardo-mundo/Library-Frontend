@@ -118,6 +118,8 @@
             "styles": [
               "src/styles.scss"
             ],
+            "codeCoverage": true,
+            "browsers": "ChromeHeadless", 
             "scripts": []
           }
         }
