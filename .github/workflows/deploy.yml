@@ -31,7 +31,7 @@ jobs:
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          BRANCH: main
+          BRANCH: gh-pages
           FOLDER: dist/test-app
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
