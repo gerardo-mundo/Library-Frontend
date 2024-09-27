@@ -32,7 +32,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           BRANCH: gh-pages
-          FOLDER: dist/test-app
+          FOLDER: dist/library-frontend
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
