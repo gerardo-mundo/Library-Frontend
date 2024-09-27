@@ -5,3 +5,4 @@ Descripción del repositorio para el proyecto, mismo que servirá de documentaci
 - Angular 16
 - Typescript
 - Prime NG
+- Crypto-js
