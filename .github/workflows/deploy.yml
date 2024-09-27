@@ -33,4 +33,5 @@ jobs:
         with:
           BRANCH: gh-pages
           FOLDER: dist/test-app
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
