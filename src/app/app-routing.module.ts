@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// import { IsAuthenticatedGuard } from './auth/guards/isAuthenticated.guard';
-// import { IsAuthenticatedUserGuard } from './auth/guards/isAutheticatedUser.guard';
 import { NotFoundPageComponent } from './shared/pages/not-found-page/not-found-page.component';
 
 const routes: Routes = [
@@ -11,11 +9,11 @@ const routes: Routes = [
 		path: 'auth',
 		loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
 	},
-	// {
-	// 	canActivate: [IsAuthenticatedGuard],
-	// 	path: 'dashboard',
-	// 	loadChildren: () => import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
-	// },
+	{
+		//canActivate: [IsAuthenticatedGuard],
+		path: 'dashboard',
+		loadChildren: () => import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
+	},
 	{
 		path: '404',
 		component: NotFoundPageComponent,

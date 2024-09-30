@@ -1,4 +1,3 @@
-import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -57,24 +56,30 @@ export class LoginPageComponent implements OnInit {
 
 		this.isLoading = true;
 
-		this.authService.login(this.loginForm.value).subscribe({
-			next: (success) => {
-				this.isLoading = false;
-				if (success) {
-					this.authService.isAuthenticated.next(AuthenticationStatus.authenticated);
-					this.router.navigateByUrl('/dashboard/welcome');
-				}
-			},
-			error: (error: HttpErrorResponse) => {
-				this.messageService.add({
-					severity: 'error',
-					summary: 'Ups',
-					detail: `${error}`,
-				});
-				this.authService.isAuthenticated.next(AuthenticationStatus.notAuthenticated);
-				this.isLoading = false;
-			},
-		});
+		setTimeout(() => { 
+			this.isLoading = false;
+			this.authService.isAuthenticated.next(AuthenticationStatus.authenticated);
+			this.router.navigateByUrl('/dashboard/welcome');
+		 }, 2500);
+
+		// this.authService.login(this.loginForm.value).subscribe({
+		// 	next: (success) => {
+		// 		this.isLoading = false;
+		// 		if (success) {
+		// 			this.authService.isAuthenticated.next(AuthenticationStatus.authenticated);
+		// 			this.router.navigateByUrl('/dashboard/welcome');
+		// 		}
+		// 	},
+		// 	error: (error: HttpErrorResponse) => {
+		// 		this.messageService.add({
+		// 			severity: 'error',
+		// 			summary: 'Ups',
+		// 			detail: `${error}`,
+		// 		});
+		// 		this.authService.isAuthenticated.next(AuthenticationStatus.notAuthenticated);
+		// 		this.isLoading = false;
+		// 	},
+		// });
 	}
 
 	public onChekBoxChange(event: CheckboxChangeEvent) {
