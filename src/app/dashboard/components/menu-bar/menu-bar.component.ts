@@ -66,48 +66,48 @@ export class MenuBarComponent implements OnInit {
 					},
 				],
 			},
-			// {
-			// 	label: 'Tesis',
-			// 	icon: PrimeIcons.BOOKMARK,
-			// 	items: [
-			// 		{
-			// 			label: 'Lista',
-			// 			icon: PrimeIcons.LIST,
-			// 			routerLink: 'thesis',
-			// 		},
-			// 		{
-			// 			label: 'Agregar',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'add-thesis',
-			// 		},
-			// 		{
-			// 			label: 'Editar',
-			// 			icon: PrimeIcons.FILE_EDIT,
-			// 			routerLink: 'edit-thesis',
-			// 		},
-			// 	],
-			// },
-			// {
-			// 	label: 'Publicaciones',
-			// 	icon: PrimeIcons.BOOKMARK_FILL,
-			// 	items: [
-			// 		{
-			// 			label: 'Lista',
-			// 			icon: PrimeIcons.LIST,
-			// 			routerLink: 'publications',
-			// 		},
-			// 		{
-			// 			label: 'Agregar',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'add-publication',
-			// 		},
-			// 		{
-			// 			label: 'Editar',
-			// 			icon: PrimeIcons.FILE_EDIT,
-			// 			routerLink: 'edit-publication',
-			// 		},
-			// 	],
-			// },
+			{
+				label: 'Tesis',
+				icon: PrimeIcons.BOOKMARK,
+				items: [
+					{
+						label: 'Lista',
+						icon: PrimeIcons.LIST,
+						routerLink: 'thesis',
+					},
+					{
+						label: 'Agregar',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'add-thesis',
+					},
+					{
+						label: 'Editar',
+						icon: PrimeIcons.FILE_EDIT,
+						routerLink: 'edit-thesis',
+					},
+				],
+			},
+			{
+				label: 'Publicaciones',
+				icon: PrimeIcons.BOOKMARK_FILL,
+				items: [
+					{
+						label: 'Lista',
+						icon: PrimeIcons.LIST,
+						routerLink: 'publications',
+					},
+					{
+						label: 'Agregar',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'add-publication',
+					},
+					{
+						label: 'Editar',
+						icon: PrimeIcons.FILE_EDIT,
+						routerLink: 'edit-publication',
+					},
+				],
+			},
 			// {
 			// 	label: 'Préstamos',
 			// 	icon: PrimeIcons.CLONE,
