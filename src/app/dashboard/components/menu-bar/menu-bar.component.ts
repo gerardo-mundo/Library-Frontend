@@ -124,35 +124,35 @@ export class MenuBarComponent implements OnInit {
 					},
 				],
 			},
-			// {
-			// 	label: 'Registrar usuarios',
-			// 	icon: PrimeIcons.USER_PLUS,
-			// 	items: [
-			// 		{
-			// 			label: 'Nuevo usuario',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'register-user',
-			// 		},
-			// 		{
-			// 			label: 'Usuarios registrados',
-			// 			icon: PrimeIcons.USERS,
-			// 			items: [
-			// 				{
-			// 					label: 'Estudiantes',
-			// 					routerLink: 'registered-students',
-			// 				},
-			// 				{
-			// 					label: 'Maestros',
-			// 					routerLink: 'registered-professors',
-			// 				},
-			// 				{
-			// 					label: 'Administrativos',
-			// 					routerLink: 'registered-administratives',
-			// 				},
-			// 			],
-			// 		},
-			// 	],
-			// },
+			{
+				label: 'Registrar usuarios',
+				icon: PrimeIcons.USER_PLUS,
+				items: [
+					{
+						label: 'Nuevo usuario',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'register-user',
+					},
+					{
+						label: 'Usuarios registrados',
+						icon: PrimeIcons.USERS,
+						items: [
+							{
+								label: 'Estudiantes',
+								routerLink: 'registered-students',
+							},
+							{
+								label: 'Maestros',
+								routerLink: 'registered-professors',
+							},
+							{
+								label: 'Administrativos',
+								routerLink: 'registered-administratives',
+							},
+						],
+					},
+				],
+			},
 			// {
 			// 	label: 'Cuentas',
 			// 	icon: PrimeIcons.USER,
