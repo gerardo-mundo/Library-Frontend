@@ -153,23 +153,23 @@ export class MenuBarComponent implements OnInit {
 					},
 				],
 			},
-			// {
-			// 	label: 'Cuentas',
-			// 	icon: PrimeIcons.USER,
-			// 	visible: true,
-			// 	items: [
-			// 		{
-			// 			label: 'Registrar nueva cuenta',
-			// 			icon: PrimeIcons.ID_CARD,
-			// 			routerLink: 'new-account',
-			// 		},
-			// 		{
-			// 			label: 'Cuentas registrados',
-			// 			icon: PrimeIcons.DATABASE,
-			// 			routerLink: 'registered-accounts',
-			// 		},
-			// 	],
-			// },
+			{
+				label: 'Cuentas',
+				icon: PrimeIcons.USER,
+				visible: true,
+				items: [
+					{
+						label: 'Registrar nueva cuenta',
+						icon: PrimeIcons.ID_CARD,
+						routerLink: 'new-account',
+					},
+					{
+						label: 'Cuentas registrados',
+						icon: PrimeIcons.DATABASE,
+						routerLink: 'registered-accounts',
+					},
+				],
+			},
 		];
 	}
 
