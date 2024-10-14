@@ -108,68 +108,68 @@ export class MenuBarComponent implements OnInit {
 					},
 				],
 			},
-			// {
-			// 	label: 'Préstamos',
-			// 	icon: PrimeIcons.CLONE,
-			// 	items: [
-			// 		{
-			// 			label: 'Registrar nuevo',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'new-loan',
-			// 		},
-			// 		{
-			// 			label: 'Ver registros',
-			// 			icon: PrimeIcons.EYE,
-			// 			routerLink: 'loans',
-			// 		},
-			// 	],
-			// },
-			// {
-			// 	label: 'Registrar usuarios',
-			// 	icon: PrimeIcons.USER_PLUS,
-			// 	items: [
-			// 		{
-			// 			label: 'Nuevo usuario',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'register-user',
-			// 		},
-			// 		{
-			// 			label: 'Usuarios registrados',
-			// 			icon: PrimeIcons.USERS,
-			// 			items: [
-			// 				{
-			// 					label: 'Estudiantes',
-			// 					routerLink: 'registered-students',
-			// 				},
-			// 				{
-			// 					label: 'Maestros',
-			// 					routerLink: 'registered-professors',
-			// 				},
-			// 				{
-			// 					label: 'Administrativos',
-			// 					routerLink: 'registered-administratives',
-			// 				},
-			// 			],
-			// 		},
-			// 	],
-			// },
-			// {
-			// 	label: 'Cuentas',
-			// 	icon: PrimeIcons.USER,
-			// 	visible: true,
-			// 	items: [
-			// 		{
-			// 			label: 'Registrar nueva cuenta',
-			// 			icon: PrimeIcons.ID_CARD,
-			// 			routerLink: 'new-account',
-			// 		},
-			// 		{
-			// 			label: 'Cuentas registrados',
-			// 			icon: PrimeIcons.DATABASE,
-			// 			routerLink: 'registered-accounts',
-			// 		},
-			// 	],
-			// },
+			{
+				label: 'Préstamos',
+				icon: PrimeIcons.CLONE,
+				items: [
+					{
+						label: 'Registrar nuevo',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'new-loan',
+					},
+					{
+						label: 'Ver registros',
+						icon: PrimeIcons.EYE,
+						routerLink: 'loans',
+					},
+				],
+			},
+			{
+				label: 'Registrar usuarios',
+				icon: PrimeIcons.USER_PLUS,
+				items: [
+					{
+						label: 'Nuevo usuario',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'register-user',
+					},
+					{
+						label: 'Usuarios registrados',
+						icon: PrimeIcons.USERS,
+						items: [
+							{
+								label: 'Estudiantes',
+								routerLink: 'registered-students',
+							},
+							{
+								label: 'Maestros',
+								routerLink: 'registered-professors',
+							},
+							{
+								label: 'Administrativos',
+								routerLink: 'registered-administratives',
+							},
+						],
+					},
+				],
+			},
+			{
+				label: 'Cuentas',
+				icon: PrimeIcons.USER,
+				visible: true,
+				items: [
+					{
+						label: 'Registrar nueva cuenta',
+						icon: PrimeIcons.ID_CARD,
+						routerLink: 'new-account',
+					},
+					{
+						label: 'Cuentas registrados',
+						icon: PrimeIcons.DATABASE,
+						routerLink: 'registered-accounts',
+					},
+				],
+			},
 		];
 	}
 
