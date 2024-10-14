@@ -108,22 +108,22 @@ export class MenuBarComponent implements OnInit {
 					},
 				],
 			},
-			// {
-			// 	label: 'Préstamos',
-			// 	icon: PrimeIcons.CLONE,
-			// 	items: [
-			// 		{
-			// 			label: 'Registrar nuevo',
-			// 			icon: PrimeIcons.PLUS,
-			// 			routerLink: 'new-loan',
-			// 		},
-			// 		{
-			// 			label: 'Ver registros',
-			// 			icon: PrimeIcons.EYE,
-			// 			routerLink: 'loans',
-			// 		},
-			// 	],
-			// },
+			{
+				label: 'Préstamos',
+				icon: PrimeIcons.CLONE,
+				items: [
+					{
+						label: 'Registrar nuevo',
+						icon: PrimeIcons.PLUS,
+						routerLink: 'new-loan',
+					},
+					{
+						label: 'Ver registros',
+						icon: PrimeIcons.EYE,
+						routerLink: 'loans',
+					},
+				],
+			},
 			// {
 			// 	label: 'Registrar usuarios',
 			// 	icon: PrimeIcons.USER_PLUS,
